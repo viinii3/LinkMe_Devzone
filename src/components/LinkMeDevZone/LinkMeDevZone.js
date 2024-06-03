@@ -12,12 +12,9 @@ function LinkMeDevZone() {
     <div className="containerMaster">
       <div class="container">
         <section class="header">
-          <div class="header-background">
-            <img src={backgroud}></img>
-          </div>
           <div class="info">
             <img src={logo}></img>
-            <h1>DevZone </h1>
+            <h1>DevZone Innovations</h1>
           </div>
           <div class="paragrafo">
             <p>
