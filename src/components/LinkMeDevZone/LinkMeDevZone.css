@@ -91,10 +91,65 @@ body {
   padding: 20px;
   border-radius: 20px;
   cursor: pointer;
+  position: relative;
+  z-index: 0;
+}
+
+.github-btn::before {
+  content: "";
+  background: linear-gradient(45deg, #6e6e6e, #ffffff, #505050);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.github-btn:active {
+  color: #000;
+}
+
+.github-btn:active:after {
+  background: transparent;
+}
+
+.github-btn:hover:before {
+  opacity: 1;
+}
+
+.github-btn:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
 .github-btn:hover svg {
-  color: #6e6e6e;
+  color: #adadad;
   transition: all 0.4s;
 }
 
@@ -103,6 +158,61 @@ body {
   padding: 20px;
   border-radius: 20px;
   cursor: pointer;
+  position: relative;
+  z-index: 0;
+}
+
+.linkedin-btn::before {
+  content: "";
+  background: linear-gradient(45deg, #3068e0, #0b1833, #3068e0);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.linkedin-btn:active {
+  color: #000;
+}
+
+.linkedin-btn:active:after {
+  background: transparent;
+}
+
+.linkedin-btn:hover:before {
+  opacity: 1;
+}
+
+.linkedin-btn:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
 .linkedin-btn:hover svg {
@@ -115,6 +225,61 @@ body {
   padding: 20px;
   border-radius: 20px;
   cursor: pointer;
+  position: relative;
+  z-index: 0;
+}
+
+.site-btn::before {
+  content: "";
+  background: linear-gradient(45deg, #ff9b04, #613a00, #ff9b04);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.site-btn:active {
+  color: #000;
+}
+
+.site-btn:active:after {
+  background: transparent;
+}
+
+.site-btn:hover:before {
+  opacity: 1;
+}
+
+.site-btn:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
 .site-btn:hover svg {
@@ -127,6 +292,61 @@ body {
   padding: 20px;
   border-radius: 20px;
   cursor: pointer;
+  position: relative;
+  z-index: 0;
+}
+
+.contato-btn::before {
+  content: "";
+  background: linear-gradient(45deg, #4feb57, #0e4411, #4feb57);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.contato-btn:active {
+  color: #000;
+}
+
+.contato-btn:active:after {
+  background: transparent;
+}
+
+.contato-btn:hover:before {
+  opacity: 1;
+}
+
+.contato-btn:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #111;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
 
 .contato-btn:hover svg {
