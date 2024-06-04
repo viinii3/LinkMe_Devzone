@@ -48,6 +48,11 @@ function LinkMeDevZone() {
             </a>
           </div>
         </section>
+        <div className="footer">
+          <p>
+            Copyright DevZone Innovations - 2024. Todos os direitos reservados.
+          </p>
+        </div>
       </div>
     </div>
   );
