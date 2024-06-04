@@ -27,16 +27,6 @@ function LinkMeDevZone() {
           </div>
         </section>
         <section class="btns">
-          <div class="github-btn">
-            <a href="https://github.com/viinii3">
-              <FaGithub />
-            </a>
-          </div>
-          <div class="linkedin-btn">
-            <a href="https://www.linkedin.com/in/marcosvclementec/">
-              <FaLinkedinIn />
-            </a>
-          </div>
           <div class="site-btn">
             <a href="https://devzoneinnovations.com.br/">
               <TbWorld />
@@ -45,6 +35,16 @@ function LinkMeDevZone() {
           <div class="contato-btn">
             <a href="https://wa.me/5511912125307">
               <FaWhatsapp />
+            </a>
+          </div>
+          <div class="github-btn">
+            <a href="https://github.com/viinii3">
+              <FaGithub />
+            </a>
+          </div>
+          <div class="linkedin-btn">
+            <a href="https://www.linkedin.com/in/marcosvclementec/">
+              <FaLinkedinIn />
             </a>
           </div>
         </section>
